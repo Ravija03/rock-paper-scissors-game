@@ -1,0 +1,50 @@
+body {
+        font-family: Arial;
+        background-color: rgb(5, 5, 25);
+        color: aqua;
+        font-size: 30px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;}
+
+        .title{font-weight: bold;
+        font-size: 40px;
+        
+      
+    }
+        
+      .rock-button{border-radius:100px ;
+                  margin-right: 20px ;
+                  cursor: pointer;
+                  border: none;}
+      .rock-image{border-radius: 50%;
+                  width:130px;
+                    }
+      .paper-button{border-radius: 100px;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    border: none;}
+      .paper-image{ border-radius: 50%;
+                    width:130px; 
+                    }
+      .scissors-button{border-radius: 100px;
+                      cursor: pointer;
+                      border: none;}
+      .scissors-image{border-radius: 50%;
+                    width:130px; 
+                   }
+       .reset-button{ padding: 14px 20px;
+                      font-size: 16px;
+                      cursor: pointer;}            
+        
+      
+      button:hover{
+        box-shadow: 0px 0px 17px rgba(254, 246, 246, 0.951);
+      }
+      .reset:hover{box-shadow: 0px 0px 0px rgba(254, 246, 246, 0.951);
+      font-size: 25px;}
+      .move-icon{
+        height: 60px;
+        border-radius: 30px;
+      }
