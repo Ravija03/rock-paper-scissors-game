@@ -9,10 +9,9 @@ body {
         height: 100%;}
 
         .title{font-weight: bold;
-        font-size: 40px;
-        
-      
-    }
+        font-size: 40px;  }
+        button{-webkit-tap-highlight-color: transparent; /* Removes gray highlight */
+          }
         
       .rock-button{border-radius:100px ;
                   margin-right: 20px ;
@@ -48,3 +47,7 @@ body {
         height: 60px;
         border-radius: 30px;
       }
+      .button-container{display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        gap: 10px;}
